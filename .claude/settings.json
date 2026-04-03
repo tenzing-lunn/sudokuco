@@ -5,7 +5,8 @@
       "Bash(echo \"exit: $?\")",
       "Bash(npm install:*)",
       "Bash(npm run:*)",
-      "Bash(curl -s http://localhost:5173)"
+      "Bash(curl -s http://localhost:5173)",
+      "Read(//Users/tenzinglunn/.claude/skills/**)"
     ],
     "additionalDirectories": [
       "/Users/tenzinglunn/sudokuco/src"

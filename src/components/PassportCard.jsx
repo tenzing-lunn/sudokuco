@@ -27,7 +27,7 @@ export default function PassportCard({ size, records }) {
   }, {})
 
   return (
-    <div className={`passport-card${locked ? ' passport-card--locked' : ''}`}>
+    <div className={`passport-card passport-card--${size}${locked ? ' passport-card--locked' : ''}`}>
       <div className="passport-card__header">
         <span className="passport-card__emoji">{locked ? '🔒' : SIZE_EMOJI[size]}</span>
         <h3 className="passport-card__title">{size}×{size}</h3>
